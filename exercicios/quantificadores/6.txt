@@ -1,0 +1,8 @@
+1 = 5
+2 = 4
+3 = 6
+
+~Ax (Cube(x) -> Small(x)) (=) Ex ~(Cube(x) -> Small(x)) (=) Ex~(Cube(x) v ~Small(x)) (=) Ex (~Cube(x) ^ Small(x))
+~Ex (Cube(x) ^ Large(x)) (=) Ax (~Cube(x) v ~Large(x)) (=) Ax (~Large(x) v ~Cube(x))
+~Ax (Large(x) <-> Dodec(x)) (=) Ex ~(Large(x) <-> Dodec(x)) (=) Ex ~(Large(x) -> Dodec(x) ^ Dodec(x) -> Large(x) (=) Ex ((Large(x) ^ ~Dodec(x)) v (Dodec(x) ^ ~Large(x)))
+

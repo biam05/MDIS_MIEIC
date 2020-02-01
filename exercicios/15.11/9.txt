@@ -1,0 +1,8 @@
+9.
+a) Ax (~Ey FrontOf(y,x) -> Large(x))
+b) Ax ((Cube(x) ^ Ey(FrontOf(y,x))) -> Small(x))
+c) AxAy ((Cube(x) ^ Dodec(y) ^ BackOf(x,y)) -> Smaller(x,y))
+d) AxAy (Between(e,x,y) -> (Small(x) ^ Small(y))
+e) AxAyAz ((Tet(x) ^ Between(x,y,z)) -> (Small(y) ^ Small(z)))
+i) Cube(b) ^ Large(b) ^ Cube(c) ^ Large(c) ^ Ax ((Cube(x) ^ Large(x) -> (x=b v x=c))
+

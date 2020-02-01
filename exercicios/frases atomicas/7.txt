@@ -1,0 +1,6 @@
+1. Owned(claire, folly, 2:00)
+2. Gave(claire, prix, max, 2:05)
+3. Student(max)
+4. Fed(claire, carl, 2:00)
+5. Owned(max, folly, 3:05)
+6. 2:00 < 2:05

@@ -1,0 +1,17 @@
+2.1 A é necessariamente verdadeira
+1 - logicamente verdadeira
+2 - logicamente verdadeira
+3 - satisfazível
+4 - logicamente verdadeira
+
+2.2 A é necessariamente falsa
+1 - logicamente verdadeira
+2 - não satisfazível
+3 - logicamente verdadeira
+4 - logicamente verdadeira
+
+2.3 C é uma consequencia logica de A e B (sempre que A e B são verdadeiros, C também o é)
+1 - ()
+2 - ()
+3 - logicamente verdadeira
+4 - logicamente verdadeira

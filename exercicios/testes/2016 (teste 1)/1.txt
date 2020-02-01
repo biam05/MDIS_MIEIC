@@ -1,0 +1,14 @@
+1
+Conta(a, b, c) - a empresa a tem uma conta do tipo b com um saldo c €
+Empresa(a) - a é uma empresa
+Saldomaior(a, b, c, d) - o saldo de a da empresa b é superior ao saldo a c da empresa d
+Somasuperior(a, b) - a soma dos saldos das contas de a é superior a b K€
+Empréstimo(a) - a está elegível para  empréstimo
+subsidiária(univ) -- sun
+
+Empresa(xpto) ^ Empresa(nrg) ^ Empresa(sun) ^ Empresa(univ)
+Conta(xpto, ordem, 5000)
+Conta(nrg, ordem, 3000) ^ Conta(nrg, prazo, 20000)
+Saldomaior(ordem, subsidiária(univ), prazo, xpto)
+Somasuperior(univ, 20) -> Empréstimo(univ)
+

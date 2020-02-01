@@ -1,0 +1,8 @@
+FND ((PvQ)^(QvP))
+
+1. C ^(Av(B^C))
+C^((AVB)^(AVC))
+C^(AVB)^(AVC)
+(FvC)^(AVB)^(AVC)
+
+2.

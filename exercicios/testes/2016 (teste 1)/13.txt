@@ -1,0 +1,11 @@
+13.
+(P -> R) -> ((PvQ) -> R)
+~(P->R) v ((PvQ)->R)
+~(~PvR) v (~(PvQ) v R)
+(P ^ ~R) v ((~P ^ ~Q) v R)
+(P ^ ~R) v ((~P v R) ^ (~Q v R))
+((P ^ ~R) v ~P v R) ^ ((P ^ ~R) v ~Q v R)
+((~P v P) ^ (~P v R) v R) ^ ((P v R) ^ (~R v R) v ~Q))
+(~P v R v R) ^ (P v R v ~Q)
+(~P v R) ^ ( P v R v ~Q)
+

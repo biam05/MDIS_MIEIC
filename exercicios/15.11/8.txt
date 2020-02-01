@@ -1,0 +1,10 @@
+8
+a) Ax (Tet(x) -> Ay (Dodec(y) -> FrontOf(x, y)))
+b) Ax (Dodec(x) -> Ay (~BackOf(y, x)))
+c) 
+d) Ax (Dodec(x) -> Ey (Cube(y) ^ SameSize(x,y)))
+e) AxAyAz [(Dodec(x) ^ Dodec(y) ^ Between(z,x,y))-> Cube(z)]
+f) Ax (Cube(X) -> EyEz(Between(x,y,z)))
+g)
+h) Ax((Dodec(x) ^ ~Ey RightOf(y,x)) -> Small(x))
+

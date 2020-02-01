@@ -1,0 +1,30 @@
+1. 
+a){-3/2, 0)}
+b){-1, 0, 1, 2, 3}
+c){3/4, 4/3, -3/4, -4/3, 0/5}
+d){vazio} (conjunto de todos os subconjuntos possíveis)
+e){(a,b,c), (a,b,d), (a,c,d), (b,c,d)} (conjunto da interseção de conjuntos) (conjunto dos subjuntos possíveis com a,b,c,d com 3 elementos)
+
+2
+a) V (contido ou igual)
+b) V
+c) F (pertence) (nada pertence ao vazio pq o vazio n tem nada)
+d) V
+e) F (contido mas diferente)
+f) V (contido)
+g) F ({1,2} =/= {{1,2}}) (contra exemplo da i) )
+h) V
+i) F (ver alínea g) )
+j) V (A é um elemento de B e todos os elementos de B são elementos de C logo A também será um elemento de C)
+k) F (A é um elemento de B e todos os elementos de B são elementos de C logo A estará contido em C)
+A = {1,2}
+B = {3,4,{1,2}}
+C = {5,4,3,{1,2}}
+l) F
+m) V
+n) V
+
+
+
+
+n)

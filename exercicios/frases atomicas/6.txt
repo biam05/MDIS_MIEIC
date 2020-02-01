@@ -1,0 +1,11 @@
+a) 
+GaveScruffy(claire, max)
+GaveScruffy(max, claire)
+GaveCarl(claire, max)
+GaveCarl(max, claire)
+
+b) 24
+
+c)
+scruffy, carl
+GaveClaire(x,y), GaveMax(x,y)

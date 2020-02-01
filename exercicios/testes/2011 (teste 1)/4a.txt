@@ -1,0 +1,8 @@
+¬( ¬(A ? B) ? ¬(A ? ¬(A ? B)) )
+(A v B) ^ (A v ~(A v B)) 	(leis de DeMorgan)
+(A v B) ^ (A v (~A ^ ~B))	(leis de DeMorgan)
+(A v B) ^ ((A v ~A) ^ (A v ~B))	(propriedade distributiva)
+(A v B) ^ (V ^(A v ~B))	
+(A v B) ^ (A v ~B)		(elemento neutro da conjunção)
+(A ^ A) v (A ^ ~B) v (B ^ A) v (B ^ ~B)
+(A ^ A) v (A ^ ~B) v (B ^ A)

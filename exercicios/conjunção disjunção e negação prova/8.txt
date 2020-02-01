@@ -1,0 +1,15 @@
+8.a)
+Supondo que n^2 é ímpar mas n é par (prova por contradição)
+se n é par é porque n é do tipo 2k (k pertencente ao conjunto dos números reais)
+entao como n^2 = n x n, então n^2 = 4k^2, que é par, uma vez que se dividirmos por 2 obtemos um número inteiro (2k^2). Como isto é um absurdo, prova-se que se n^2 é ímpar então n é igualmente ímpar.
+
+b)
+Supondo que n + m é ímpar
+para n + m = ímpar, então n = par e m = ímpar ou n = ímpar e n = par
+1) n par e m impar
+n x m = 2k x (2k+1) = 4k^2 + 2k  = par
+2) m par e n impar 
+n x m = (2k+1) x 2k = 4k^2 + 2k = par
+Logo nxm é par se n + m é impar
+
+c) como 9 é divisil por 3, entao se n^2 é divisil por 9 entao tambem sera divisil por 3

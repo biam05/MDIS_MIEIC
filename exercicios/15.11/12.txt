@@ -1,0 +1,9 @@
+12
+a) (altura(pai(maria))>altura(maria)) ^ ~(altura(pai(maria))>altura(pai(clara)))
+b) Ex (altura(x) > altura(pai(clara)))
+c) Ex (altura(mae(x)) > altura(pai(x)))
+d) AxEy (altura(x) > altura(y))
+e) Ax ~(altura(x) > altura(x))
+f) Ax ((altura(x) > altura(clara) ^ x=/= juca) -> (altura(x) > altura(juca)))
+g) Ax ((altura(clara) > altura(x)) -> Ey ((altura(y) > altura(x)) ^ altura(pai(mariana)) > altura(y)))
+h) Ex ((altura(x) > altura(mae(pai(jonas)))) ^ (altura(pai(mae(x))) > altura(x)))

@@ -1,0 +1,7 @@
+4.
+a) A\B (A exceto B)
+[-4,0[
+b)B\A (B exceto A)
+]4,5]
+c) A**c
+]-oo, -4[ U ]4, +oo[

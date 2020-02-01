@@ -1,0 +1,16 @@
+1a)
+Enfarte(a) - a teve um enfarte
+Aspirina(a,b) - a toma b aspirinas por dia
+Eutirox(a,b) - a toma b mg de Eutirox
+Mulher(a,b) - a é mulher de b
+Cancro(a) - a tem cancro
+Insulina(a,b) - a toma b doses de insulina por dia
+Diabetes(a) - a tem diabetes
+
+1b)
+1. Enfarte(joão) ^ Aspirina(joão, 1)
+2. Eutirox(ana, 50) ^ ~Enfarte(ana)
+3. (Aspirina(luís, 2) ^ ~Aspirina(mulher, 2)) v (~Aspirina(luís) ^ Aspirina(mulher, 2))
+4. Mulher(ana, joão)
+5. (~Cancro(luís) ^ ~Cancro(mulher)) ^ (Insulina(luís, 2) v Insulina(mulher, 2))
+6. ~Diabetes(luís) v Insulina(luís, 2)
